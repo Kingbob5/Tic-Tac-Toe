@@ -1,0 +1,90 @@
+* {
+    max-width: 1000px;
+}
+
+.h1{
+    text-align: center;
+    font-family: halvetica;
+}
+
+.top-left, .top-middle, .top-right, .middle-left, .middle-middle, .middle-right, .bottom-left, .bottom-middle, .bottom-right {
+    position: relative;
+    padding: 70px;
+    float: left;
+}
+
+
+.top-left {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 1px;
+}
+
+.top-middle {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    top: 1px;
+}
+
+.top-right {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 1px;
+}
+
+.middle-left {
+    top: 142px;
+    left: -424px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black
+}
+.middle-middle {
+    top: 142px;
+    left: -424px;
+    border: 1px solid black;
+
+}
+.middle-right {
+    top: 142px;
+    left: -424px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black
+}
+.bottom-left {
+    top: 142px;;
+    border-right: 1px solid black;
+    border-top: 1px solid black
+}
+.bottom-middle {
+    top: 142px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black
+}
+.bottom-right {
+    top: 142px;
+    border-left: 1px solid black;
+    border-top: 1px solid black
+}
+.x {
+    background-image: url('http://rdthairsalon.com/blog/wp-content/plugins/wp-app-maker/asset-studio/res/clipart/icons/cross.svg');
+    background-size: contain;
+    opacity: 1.5;
+}
+
+.o {
+    background-image: url('http://images.clipshrine.com/getimg/PngThumb-mono-circle-61609.png');
+    background-size: contain;
+    opacity: 1.5;
+}
+
+#popup {
+    border: 1px solid #000000;
+    width:100px;
+    height: 100px;
+    margin: 0px auto;
+    display: none;
+        }
